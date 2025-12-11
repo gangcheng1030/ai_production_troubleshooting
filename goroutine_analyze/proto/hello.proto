@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package hello;
+
+option go_package = "github.com/gangcheng1030/ai_production_troubleshooting/goroutine_analyze/proto;hello";
+
+service HelloService {
+  rpc SayHello (HelloRequest) returns (HelloResponse) {}
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloResponse {
+  string message = 1;
+}
+
