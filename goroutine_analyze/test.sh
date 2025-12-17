@@ -200,7 +200,7 @@ echo ""
 
 # 等待 2 秒
 echo "等待 2 秒，让客户端发送请求..."
-sleep 2
+sleep 5
 
 # 获取 goroutine 信息
 echo "采集 goroutine 信息..."
